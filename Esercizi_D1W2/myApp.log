@@ -1,0 +1,3 @@
+2024-04-22 16:19:05,130 WARN [main] logger1 [Main.java:11] -- Sto lanciando l'applicazione
+2024-04-22 16:21:52,609 WARN [main] logger1 [Main.java:11] -- Sto lanciando l'applicazione
+2024-04-22 16:22:01,417 INFO [main] logger1 [Main.java:26] -- Sto terminando l'applicazione
