@@ -2,6 +2,7 @@ package it.epicode.blogexercise.model;
 
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.Email;
 import lombok.Data;
 
 import java.time.LocalDate;
@@ -18,6 +19,7 @@ public class Autore {
     private String cognome;
     private String email;
     private LocalDate dataDiNascita;
+
     private String avatar;
 
 

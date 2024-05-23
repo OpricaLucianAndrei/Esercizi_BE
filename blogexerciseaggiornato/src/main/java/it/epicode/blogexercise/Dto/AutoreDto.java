@@ -1,10 +1,17 @@
 package it.epicode.blogexercise.Dto;
 
+import jakarta.validation.constraints.*;
+
 import java.time.LocalDate;
 
 public class AutoreDto {
+    @NotNull(message = "Il campo nome non può essere null")
+    @Size(min = 2, max = 30)
     private String nome;
     private String cognome;
+    @Email(regexp = "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$")
+    @NotNull(message = "Il campo email non può essere null")
+    @Size(min = 8, max = 30)
     private String email;
     private LocalDate dataDiNascita;
 
